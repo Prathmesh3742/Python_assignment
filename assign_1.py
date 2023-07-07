@@ -1,0 +1,7 @@
+x = int(input("Enter num 1: "))
+# print(x)
+y = int(input("Enter num 2: "))
+# print(y)
+z = int(input("Enter num 3: "))
+# print(z)
+print("The average of",x,y,"and",z, " is ",(x+y+z)/3)
