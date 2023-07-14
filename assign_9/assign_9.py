@@ -1,4 +1,4 @@
-class user_defined_exception(RuntimeError):
+class user_defined_exception(Exception):
     def __init__(self,arg):
         self.arg = arg
 
@@ -11,3 +11,4 @@ except user_defined_exception as u:
 obj = c.math_operations(10,40)
 obj.power()
 obj.trigno()
+obj.rest()
