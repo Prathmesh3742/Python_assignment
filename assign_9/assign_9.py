@@ -11,4 +11,5 @@ except user_defined_exception as u:
 obj = c.math_operations(10,40)
 obj.power()
 obj.trigno()
+obj.basic()
 obj.rest()
